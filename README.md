@@ -3,7 +3,7 @@
 
 
 
-##工具类网站
+## 工具类网站
 
  [HTML5 与 CSS3 技术应用评估](http://html5please.com/ "html5与css3技术应用评估")
  
@@ -52,12 +52,12 @@
 [HTML5 POLYFILLS](http://html5polyfill.com/ "HTML5 POLYFILLS")
 
 
-##iphone6的那些事
+## iphone6的那些事
 
 [iPhone 6 屏幕揭秘](http://wileam.com/iphone-6-screen-cn/)
 
 
-##响应式测试工具
+## 响应式测试工具
 
 Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Firefox->Web 开发者->自定义设计视图`（或者摁下 `Shift + Ctrl + m` ）。相比网络工具，运行更加流畅，无需联网。
 
@@ -92,7 +92,7 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
 		#portrait { display: none; }
 	</style>
 ```
-##Web app 开发的最佳实践与中文总结
+## Web app 开发的最佳实践与中文总结
 
 [It’s not a web app. It’s an app you install from the web.](http://blog.forecast.io/its-not-a-web-app-its-an-app-you-install-from-the-web/)
 
@@ -103,7 +103,7 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
 
 
 
-##来自[maxzhang](https://github.com/maxzhang "ava")的一些移动端经验总结干货
+## 来自[maxzhang](https://github.com/maxzhang "ava")的一些移动端经验总结干货
 
 
 [移动Web单页应用开发实践——页面结构化](https://github.com/maxzhang/maxzhang.github.com/issues/8 "ava")
@@ -121,7 +121,7 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
 [移动手机浏览器m3u8格式视频流播放支持程度测试](https://github.com/maxzhang/maxzhang.github.com/issues/19 "ava")
 
 
-##本资料很多引用了指尖上的js系列
+## 本资料很多引用了指尖上的js系列
 
  [指尖下的js ——多触式web前端开发之一：对于Touch的处理](http://www.cnblogs.com/pifoo/archive/2011/05/23/webkit-touch-event-1.html "article1")
  
@@ -129,9 +129,9 @@ Firefox 浏览器内置了 `自定义设计视图` 的功能，可以通过 `Fir
  
  [指尖下的js —— 多触式web前端开发之三：处理复杂手势](http://www.cnblogs.com/pifoo/archive/2011/05/22/webkit-touch-event-3.html "article3")
 
-##基础知识
+## 基础知识
 
-###meta标签
+### meta标签
 
 meta标签大全 <http://segmentfault.com/blog/ciaocc/1190000002407912>
 
@@ -176,28 +176,28 @@ meta标签，这些meta标签在开发webapp时起到非常重要的作用
 [此像素非彼像素](http://www.w3cplus.com/css/A-pixel-is-not-a-pixel-is-not-a-pixel.html "pixel")
 
 
-##移动开发事件
+## 移动开发事件
 
 [手机浏览器常用手势动作监听封装](http://wo.poco.cn/manson/post/id/268780)
 
-###手势事件
+### 手势事件
 * touchstart            //当手指接触屏幕时触发
 * touchmove           //当已经接触屏幕的手指开始移动后触发
 * touchend             //当手指离开屏幕时触发
 * touchcancel
 
-###触摸事件
+### 触摸事件
 * gesturestart          //当两个手指接触屏幕时触发
 * gesturechange      //当两个手指接触屏幕后开始移动时触发
 * gestureend
 
-###屏幕旋转事件
+### 屏幕旋转事件
 * onorientationchange    
 
-###检测触摸屏幕的手指何时改变方向
+### 检测触摸屏幕的手指何时改变方向
 * orientationchange      
 
-###touch事件支持的相关属性
+### touch事件支持的相关属性
 * touches
 * targetTouches
 * changedTouches
@@ -211,7 +211,7 @@ meta标签，这些meta标签在开发webapp时起到非常重要的作用
 * identifier　　   // An identifying number, unique to each touch event
 * 屏幕旋转事件：onorientationchange
 
-###判断屏幕是否旋转
+### 判断屏幕是否旋转
 ```javascript
 	function orientationChange() {
 		switch(window.orientation) {
@@ -236,7 +236,7 @@ meta标签，这些meta标签在开发webapp时起到非常重要的作用
 ``` 
 
 
-###JS 单击延迟
+### JS 单击延迟
 click 事件因为要等待单击确认，会有 300ms 的延迟，体验并不是很好。
 
 开发者大多数会使用封装的 tap 事件来代替click 事件，所谓的 tap 事件由 touchstart 事件 + touchmove 判断 + touchend 事件封装组成。
@@ -245,7 +245,7 @@ click 事件因为要等待单击确认，会有 300ms 的延迟，体验并不�
 
  [Eliminate 300ms delay on click events in mobile Safari](http://stackoverflow.com/questions/12238587/eliminate-300ms-delay-on-click-events-in-mobile-safari "article5")
 
-##WebKit CSS:
+## WebKit CSS:
 [携程 UED 整理的 Webkit CSS 文档](http://ued.ctrip.com/blog/wp-content/webkitcss/index.html) ，全面、方便查询，下面为常用属性。
 
 ①“盒模型”的具体描述性质的包围盒块内容，包括边界，填充等等。

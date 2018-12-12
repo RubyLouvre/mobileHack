@@ -1469,11 +1469,11 @@ iscroll的闪动问题也与渲染有关系，可以参考
 	
 	    function onDeviceReady() {    
 	        callFetchContacts();
-	    }
+	}
 	
 	function callFetchContacts(){
 	    var options = new ContactFindOptions();
 	    options.multiple = true;
 	    var fields       = ["displayName", "name","phoneNumbers"];
 	    navigator.contacts.find(fields, onSuccess, onError,options);  
-	    }
+	}

@@ -1466,14 +1466,13 @@ iscroll的闪动问题也与渲染有关系，可以参考
 注意使用 PhoneGap 的 API 时，一定要在 devicereay 事件的处理函数中使用 API
 
 	document.addEventListener("deviceready", onDeviceReady, false);
-	
 	    function onDeviceReady() {    
 	        callFetchContacts();
-	    }
+	}
 	
 	function callFetchContacts(){
 	    var options = new ContactFindOptions();
 	    options.multiple = true;
 	    var fields       = ["displayName", "name","phoneNumbers"];
 	    navigator.contacts.find(fields, onSuccess, onError,options);  
-	    }
+	}

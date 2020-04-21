@@ -1477,3 +1477,7 @@ iscroll的闪动问题也与渲染有关系，可以参考
 	    var fields       = ["displayName", "name","phoneNumbers"];
 	    navigator.contacts.find(fields, onSuccess, onError,options);  
 	    }
+
+### transform导致的border-radius失效问题
+[transform导致的border-radius失效问题](transform导致的border-radius失效问题)
+给圆角出现问题的容器上加上-webkit-transform:rotate(0deg); 或许可以解决问题

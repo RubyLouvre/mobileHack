@@ -1454,6 +1454,7 @@ iscroll的闪动问题也与渲染有关系，可以参考
 	    -webkit-overflow-scrolling: touch !important;
 	    overflow: scroll !important;
 	}
+	ve
 	
 参考：
 
